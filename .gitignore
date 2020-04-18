@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/Alura.Loja/Alura.Loja.Testes.ConsoleApp
+/Alura.Loja/.vs/Alura.Loja
+/EF Core/.vs/EF Core/v16
