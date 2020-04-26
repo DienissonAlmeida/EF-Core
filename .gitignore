@@ -3,6 +3,12 @@
 ################################################################################
 
 /.vs
-/Alura.Loja/Alura.Loja.Testes.ConsoleApp
 /Alura.Loja/.vs/Alura.Loja
-/EF Core/.vs/EF Core/v16
+/Alura.Loja/packages/Microsoft.Bcl.AsyncInterfaces.1.1.0/lib/net461
+/Alura.Loja/packages/Microsoft.Bcl.AsyncInterfaces.1.1.0
+/Alura.Loja/packages/Microsoft.Bcl.HashCode.1.1.0
+/Alura.Loja/packages/Microsoft.CSharp.4.7.0
+/Alura.Loja/packages/Microsoft.Data.SqlClient.1.0.19269.1
+/Alura.Loja/packages/Microsoft.Data.SqlClient.SNI.1.0.19235.1
+/Alura.Loja/packages
+/Alura.Loja/Alura.Loja.Testes.ConsoleApp/bin/Debug
