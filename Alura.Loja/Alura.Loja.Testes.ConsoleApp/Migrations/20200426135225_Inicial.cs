@@ -2,7 +2,7 @@
 
 namespace Alura.Loja.Testes.ConsoleApp.Migrations
 {
-    public partial class Unidade : Migration
+    public partial class Inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,7 @@ namespace Alura.Loja.Testes.ConsoleApp.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(nullable: true),
                     Categoria = table.Column<string>(nullable: true),
-                    PrecoUnitario = table.Column<double>(nullable: false)
+                    Preço = table.Column<double>(nullable: false)
                 },
                 constraints: table =>
                 {

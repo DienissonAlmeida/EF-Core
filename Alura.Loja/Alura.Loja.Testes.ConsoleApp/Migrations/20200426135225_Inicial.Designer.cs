@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Alura.Loja.Testes.ConsoleApp.Migrations
 {
     [DbContext(typeof(LojaContext))]
-    [Migration("20200426131220_Unidade")]
-    partial class Unidade
+    [Migration("20200426135225_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,7 +33,7 @@ namespace Alura.Loja.Testes.ConsoleApp.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("PrecoUnitario")
+                    b.Property<double>("Preço")
                         .HasColumnType("float");
 
                     b.HasKey("Id");

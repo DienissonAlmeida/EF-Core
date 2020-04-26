@@ -146,15 +146,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compra.cs" />
     <Compile Include="LojaContext.cs" />
-    <Compile Include="Migrations\20200426131220_Unidade.cs" />
-    <Compile Include="Migrations\20200426131220_Unidade.designer.cs">
-      <DependentUpon>20200426131220_Unidade.cs</DependentUpon>
+    <Compile Include="Migrations\20200426135225_Inicial.cs" />
+    <Compile Include="Migrations\20200426135225_Inicial.designer.cs">
+      <DependentUpon>20200426135225_Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200426135330_Unidade.cs" />
+    <Compile Include="Migrations\20200426135330_Unidade.designer.cs">
+      <DependentUpon>20200426135330_Unidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200426155509_Compra.cs" />
+    <Compile Include="Migrations\20200426155509_Compra.designer.cs">
+      <DependentUpon>20200426155509_Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\LojaContextModelSnapshot.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlLoggerProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
